@@ -1,0 +1,89 @@
+/* リセットCSS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+blockquote,
+th,
+td {
+  margin:0;
+  padding:0;
+}
+ul {
+  list-style:none;
+}
+/* リセットCSS */
+
+/* ヘッダー部分 */
+header {
+  height: 100px;
+  background:whitesmoke;
+}
+
+.my-portfolio {
+  text-align: center;
+  font-size: 40px;
+  font-style: oblique;
+  padding: 30px;
+}
+/* ヘッダー部分 */
+
+/* メイン部分 */
+.menu-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-lists > ul {
+  font-size: 20px;
+  font-style: oblique;
+  width: 400px;
+}
+
+.menu-lists > ul > li {
+  width: 300px;
+  font-size: 23px;
+  font-style: oblique;
+  padding-bottom: 3px;
+  border-bottom: 1px solid #777;
+  margin: 7px;
+  
+}
+/* メイン部分 */
+
+
+/* フッター部分 */
+footer {
+  height: 100px;
+  background: whitesmoke;
+}
+/* フッター部分 */
