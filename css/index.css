@@ -1,0 +1,26 @@
+.junnbi {
+  display: flex;
+}
+
+.p {
+  font-size: 50px;
+}
+
+.loading {
+  margin: 50px;
+  width: 40px;
+  height: 40px;
+  border: 8px solid #aaa;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: spin .8s infinite linear;
+}
+
+@keyframes spin {
+  0% {
+    transform: none;
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
