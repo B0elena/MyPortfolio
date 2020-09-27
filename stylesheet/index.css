@@ -40,6 +40,10 @@ td {
 ul {
   list-style:none;
 }
+a {
+  text-decoration: none;
+  color: #333;
+}
 /* リセットCSS */
 
 /* ヘッダー部分 */
@@ -57,14 +61,16 @@ header {
 /* ヘッダー部分 */
 
 /* メイン部分 */
+/* メニュー部分 */
 .menu-content {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 20px;
 }
 
 .menu-lists > ul {
-  font-size: 20px;
+  font-size: 25px;
   font-style: oblique;
   width: 400px;
 }
@@ -76,14 +82,109 @@ header {
   padding-bottom: 3px;
   border-bottom: 1px solid #777;
   margin: 7px;
-  
 }
-/* メイン部分 */
+/* メニュー部分 */
 
+/* 自己紹介部分 */
+.introduction-content {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.introduction-menu {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.my-picture {
+  border-radius: 50%;
+  margin-left: 10vw;
+}
+
+.introduction-title {
+  font-size: 25px;
+  font-style: oblique;
+  padding: 5px;
+  border-bottom: 1px solid #777;
+  margin-left: 10vw;
+  width: 150px;
+}
+
+.introduction-contents {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.introduction-text {
+  position: absolute;
+  width: 60%;
+  margin: 65vh 22vw 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+/* 自己紹介部分 */
+
+/* 技術スキル部分 */
+.skill-content {
+  width: 75vw;
+  height: 100vh;
+  margin: auto;
+  background: rgb(148, 137, 137);
+}
+/* 技術スキル部分 */
+
+/* 成果物部分 */
+.portfolio-content {
+  width: 75vw;
+  height: 100vh;
+  margin: auto;
+  background: rgb(90, 88, 88);
+}
+/* 成果物部分 */
+
+/* 連絡先部分 */
+.access-content {
+  width: 75vw;
+  height: 50vh;
+  margin: auto;
+  background: rgb(199, 198, 198);
+}
+
+.footer-content {
+  font-size: 20px;
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px solid #777;
+  margin: 20px auto;
+  text-align: center;
+}
+/* 連絡先部分 */
+
+/* メイン部分 */
 
 /* フッター部分 */
 footer {
   height: 100px;
   background: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer > p {
+  font-size: 20px;
+  font-style: oblique;
 }
 /* フッター部分 */
