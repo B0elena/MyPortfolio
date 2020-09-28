@@ -187,6 +187,49 @@ header {
   margin: auto;
   background: rgb(90, 88, 88);
 }
+
+.food-linker {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.food-linker > a {
+  padding: 10px;
+  margin: 20px;
+}
+
+.food-linker-content {
+  padding: 10px;
+  margin: 10p
+}
+
+.food-linker-content > ul >li {
+  padding: 5px;
+  margin: 10p
+}
+
+.furima-28818 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.furima-28818 > a {
+  padding: 10px;
+  margin: 20px
+}
+
+.furima-28818-content {
+  padding: 10px;
+  margin: 10p
+}
+
+.furima-28818-content > ul > li {
+  padding: 5px;
+  margin: 10p
+}
+
 /* 成果物部分 */
 
 /* 連絡先部分 */
