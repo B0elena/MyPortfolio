@@ -48,25 +48,60 @@ a {
 
 /* ヘッダー部分 */
 header {
-  height: 100px;
+  height: 80px;
   background:whitesmoke;
 }
 
 .my-portfolio {
   text-align: center;
-  font-size: 40px;
+  font-size: 25px;
   font-style: oblique;
-  padding: 30px;
+  padding: 20px;
 }
 /* ヘッダー部分 */
 
 /* メイン部分 */
+/* 導入 */
+.name-content {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.en-name {
+  width: 300px;
+  font-size: 18px;
+  font-style: oblique;
+  padding: 5px;
+  margin: 0 30px;
+  border-bottom: 1px solid #999;
+}
+
+.ja-name {
+  font-size: 36px;
+  font-style: oblique;
+  padding: 5px;
+  margin: 0 30px;
+  border-bottom: 1px solid #999;
+}
+
+.name-image {
+  padding: 5px;
+  margin: 0 30px;
+  border-radius: 50px;
+  margin: 0 30px;
+}
+/* 導入 */
+
 /* メニュー部分 */
 .menu-content {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 20px;
+  padding: 20px;
+  margin: 10px;
+  background: whitesmoke;
 }
 
 .menu-lists > ul {
@@ -171,7 +206,6 @@ header {
   text-align: center;
 }
 /* 連絡先部分 */
-
 /* メイン部分 */
 
 /* フッター部分 */
@@ -184,7 +218,7 @@ footer {
 }
 
 footer > p {
-  font-size: 20px;
+  font-size: 18px;
   font-style: oblique;
 }
 /* フッター部分 */
