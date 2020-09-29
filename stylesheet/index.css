@@ -231,12 +231,13 @@ header {
 
 .portfolio-contents {
   padding: 10px;
-  margin: 10p
+  margin: 10p;
 }
 
 .portfolio-contents > ul >li {
   padding: 5px;
-  margin: 10p
+  margin: 10p;
+  font-size: 10px;
 }
 /* 成果物部分 */
 
@@ -278,7 +279,7 @@ header {
   font-size: 20px;
   width: 150px;
   padding: 10px;
-  border-bottom: 1px solid #777;
+  border-bottom: 1px solid ;
   margin: 20px auto;
   text-align: center;
 }
@@ -299,3 +300,89 @@ footer > p {
   font-style: oblique;
 }
 /* フッター部分 */
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 599px) {
+  /* 導入 */
+  .en-name {
+    width: 100px;
+    font-size: 12px;
+  }
+  
+  .ja-name {
+    font-size: 24px;
+  }
+
+  .name-image {
+    width: 150px;
+    height: 175px;
+    margin: 0 20px;
+  }
+  /* 導入 */
+  /* メニュー部分 */
+  .menu-lists > ul {
+    font-size: 12px;
+    font-style: oblique;
+    width: 100%;
+  }
+  
+  .menu-lists > ul > li {
+    width: 200px;
+    font-size: 14px;
+    font-style: oblique;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #777;
+    margin: 7px;
+  }
+  
+  .top-image {
+    width: 100%;
+  }
+  /* メニュー部分 */
+
+  /* 自己紹介部分 */
+  .my-picture {
+    width: 130px;
+    height: 130px;
+  }
+
+  .introduction-menu {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin: 5px auto;
+  }
+
+  .introduction-text {
+    position: absolute;
+    margin: 80% 22vw 0;
+  }
+  /* 自己紹介部分 */
+
+  /* 成果物部分 */
+  .portfolio-content-title {
+    font-size: 15px;
+  }
+  
+  .portfolio-content {
+    width: 75vw;
+    margin: auto;
+    background: whitesmoke;
+  }
+  
+  .portfolio {
+    padding-top:15px;
+    display: block!important;
+  }
+  /* 成果物部分 */
+  
+  /* 連絡先部分 */
+  .access-content-address {
+    display: block;
+    width: 80%;
+  }
+  /* 連絡先部分 */
+}
