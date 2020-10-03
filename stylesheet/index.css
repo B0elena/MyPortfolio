@@ -122,26 +122,7 @@ header {
 
 /* 自己紹介部分 */
 .introduction-content {
-  position: relative;
-  display: flex;
-  width: 100%;
-  /* height: 100%; */
-  margin: 0;
-}
 
-.introduction-menu {
-  position: absolute;
-  width: 80%;
-  height: 80%;
-  margin: auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
-.my-picture {
-  border-radius: 50%;
-  margin-left: 10vw;
 }
 
 .introduction-title {
@@ -149,7 +130,7 @@ header {
   font-style: oblique;
   padding: 5px;
   border-bottom: 1px solid #777;
-  margin-left: 10vw;
+  margin: auto;
   width: 150px;
 }
 
@@ -160,12 +141,8 @@ header {
 }
 
 .introduction-text {
-  position: absolute;
   width: 60%;
-  margin: 65vh 22vw 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  margin: 30px auto;
 }
 
 
@@ -344,26 +321,7 @@ footer > p {
   /* メニュー部分 */
 
   /* 自己紹介部分 */
-  .my-picture {
-    display: none;
-  }
-
-  .introduction-title{
-    position: absolute;
-    top: 180px;
-  }
-
-  .introduction-menu {
-    position: absolute;
-    width: 80%;
-    height: 80%;
-    margin: 5px auto;
-  }
-
-  .introduction-text {
-    position: absolute;
-    margin: 70% 22vw 0;
-  }
+ 
   /* 自己紹介部分 */
 
   /* 成果物部分 */
