@@ -196,7 +196,7 @@ header {
 .portfolio {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   margin: 10px;
   background: rgb(240, 239, 239);
 }
