@@ -210,6 +210,10 @@ header {
   margin: 10p;
   font-size: 10px;
 }
+
+.fab {
+  color: purple;
+}
 /* 成果物部分 */
 
 /* 連絡先部分 */
@@ -282,6 +286,15 @@ footer > p {
   font-size: 18px;
   font-style: oblique;
 }
+
+.access-content-tweeter i {
+  color: rgb(14, 176, 240);
+}
+
+.access-content-github  i {
+   color: #333;
+}
+
 /* フッター部分 */
 
 @media (max-width: 1024px) {
