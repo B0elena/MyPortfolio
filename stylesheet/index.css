@@ -141,20 +141,6 @@ nav .inner ul li a:hover {
   z-index: 2;
   cursor: pointer;
 }
-/*main*/
-main {
-  padding: 50px;
-}
-main h1 {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-  text-align: center;
-}
-/*body*/
-body {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
-}
 /* ハンバガーメニュー */
 
 /* ヘッダー部分 */
