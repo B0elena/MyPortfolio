@@ -1,12 +1,12 @@
 $(function() {
-  var $a = $('#a');
-  var $b = $('#b');
-  var $c = $('#c');
-  var $d = $('#d');
-  var $nav   = $('#navArea');
-  var $btn   = $('.toggle_btn');
-  var $mask  = $('#mask');
-  var open   = 'open'; // class
+  const $a = $('#a');
+  const $b = $('#b');
+  const $c = $('#c');
+  const $d = $('#d');
+  const $nav   = $('#navArea');
+  const $btn   = $('.toggle_btn');
+  const $mask  = $('#mask');
+  const open   = 'open'; // class
   // menu open close
   $btn.on( 'click', function() {
     if ( ! $nav.hasClass( open ) ) {
