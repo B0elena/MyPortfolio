@@ -28,12 +28,12 @@ a {
 }
 /* リセットCSS */
 
-.practice1 {
-  height: 8122px;
-  background-image: url(../img/practice1.jpg)
+.practice-list {
+  display: flex;
+  justify-content: space-around;
 }
 
-.practice2 {
-  height: 3214px;
-  background-image: url(../img/practice2.jpg)
+.practice-list img {
+  margin: 30px;
+  border: 1px solid #333;
 }
