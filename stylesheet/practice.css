@@ -1,0 +1,39 @@
+/* リセットCSS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+
+body,
+div,
+ul,
+li,
+h1,
+h2,
+p{
+  margin:0;
+  padding:0;
+}
+ul {
+  list-style:none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+/* リセットCSS */
+
+.practice1 {
+  height: 8122px;
+  background-image: url(../img/practice1.jpg)
+}
+
+.practice2 {
+  height: 3214px;
+  background-image: url(../img/practice2.jpg)
+}
