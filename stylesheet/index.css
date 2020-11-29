@@ -34,7 +34,7 @@ nav {
   display: block;
   position: fixed;
   top: 0;
-  left: -300px;
+  right: -300px;
   bottom: 0;
   width: 300px;
   background: #ffffff;
@@ -46,7 +46,7 @@ nav {
   opacity: 0;
 }
 .open nav {
-  left: 0;
+  right: 0;
   opacity: 1;
 }
 nav .inner {
@@ -75,7 +75,7 @@ nav .inner ul li a:hover {
 }
 @media screen and (max-width: 767px) {
   nav {
-    left: -220px;
+    right: -220px;
     width: 220px;
   }
 }
@@ -116,6 +116,7 @@ nav .inner ul li a:hover {
 .open .toggle_btn span:nth-child(1) {
   -webkit-transform: translateY(10px) rotate(-315deg);
   transform: translateY(10px) rotate(-315deg);
+  opacity: 0;
 }
 .open .toggle_btn span:nth-child(2) {
   opacity: 0;
@@ -123,6 +124,7 @@ nav .inner ul li a:hover {
 .open .toggle_btn span:nth-child(3) {
   -webkit-transform: translateY(-10px) rotate(315deg);
   transform: translateY(-10px) rotate(315deg);
+  opacity: 0;
 }
 /*#mask*/
 #mask {
