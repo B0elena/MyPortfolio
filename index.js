@@ -32,3 +32,17 @@ $(function() {
     $nav.removeClass( open );
   });
 });
+
+
+$(function(){
+  $(window).scroll(function (){
+      $('trigger').each(function(){
+          let position = $(this).offset().top;
+              scroll = $(window).scrollTop();
+              windowHeight = $(window).height();
+          if (scroll > position - windowHeight){
+            $(this).addClass('active');
+          }
+      });
+  });
+});
