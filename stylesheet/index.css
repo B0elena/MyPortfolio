@@ -247,7 +247,7 @@ header {
 
 .graph-html {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #e44b23;
   animation: r-html 4s 2s ease 1 normal forwards running;
@@ -269,6 +269,7 @@ header {
 .graph-html > p {
   color: #e44b23;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: html 4s 2s ease 1 normal forwards running;
 }
 
@@ -283,7 +284,7 @@ header {
 
 .graph-css {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #563d7c;
   animation: r-css 4s 2s ease 1 normal forwards running;
@@ -305,6 +306,7 @@ header {
 .graph-css > p {
   color: #563d7c;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: css 4s 2s ease 1 normal forwards running;
 }
 
@@ -319,7 +321,7 @@ header {
 
 .graph-js {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #f1e05a;
   animation: r-js 4s 2s ease 1 normal forwards running;
@@ -341,6 +343,7 @@ header {
 .graph-js > p {
   color: #f1e05a;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: js 4s 2s ease 1 normal forwards running;
 }
 
@@ -355,7 +358,7 @@ header {
 
 .graph-jquery {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #0769ad;
   animation: r-jq 4s 2s ease 1 normal forwards running;
@@ -377,6 +380,7 @@ header {
 .graph-jquery > p {
   color: #0769ad;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: jq 4s 2s ease 1 normal forwards running;
 }
 
@@ -391,7 +395,7 @@ header {
 
 .graph-vue {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #42b983;
   animation: r-vue 4s 2s ease 1 normal forwards running;
@@ -413,6 +417,7 @@ header {
 .graph-vue > p {
   color: #42b983;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: vue 4s 2s ease 1 normal forwards running;
 }
 
@@ -427,7 +432,7 @@ header {
 
 .graph-ps {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #0d66d0;
   animation: r-ps 4s 2s ease 1 normal forwards running;
@@ -449,6 +454,7 @@ header {
 .graph-ps > p {
   color: #0d66d0;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: ps 4s 2s ease 1 normal forwards running;
 }
 
@@ -463,7 +469,7 @@ header {
 
 .graph-ill {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #e68619;
   animation: r-ill 4s 2s ease 1 normal forwards running;
@@ -485,6 +491,7 @@ header {
 .graph-ill > p {
   color: #e68619;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: ill 4s 2s ease 1 normal forwards running;
 }
 
@@ -499,7 +506,7 @@ header {
 
 .graph-xd {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #c515ae;
   animation: r-xd 4s 2s ease 1 normal forwards running;
@@ -521,6 +528,7 @@ header {
 .graph-xd > p {
   color: #c515ae;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: xd 4s 2s ease 1 normal forwards running;
 }
 
@@ -535,7 +543,7 @@ header {
 
 .graph-ui {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #c73d13;
   animation: r-ui 4s 2s ease 1 normal forwards running;
@@ -557,6 +565,7 @@ header {
 .graph-ui > p {
   color: #c73d13;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: ui 4s 2s ease 1 normal forwards running;
 }
 
@@ -571,7 +580,7 @@ header {
 
 .graph-ruby {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #701516;
   animation: r-ruby 4s 2s ease 1 normal forwards running;
@@ -593,6 +602,7 @@ header {
 .graph-ruby > p {
   color: #701516;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: ruby 4s 2s ease 1 normal forwards running;
 }
 
@@ -607,7 +617,7 @@ header {
 
 .graph-rails {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #e17600;
   animation: r-rails 4s 2s ease 1 normal forwards running;
@@ -629,6 +639,7 @@ header {
 .graph-rails > p {
   color: #e17600;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: rails 4s 2s ease 1 normal forwards running;
 }
 
@@ -643,7 +654,7 @@ header {
 
 .graph-git {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #a53ed4;
   animation: r-git 4s 2s ease 1 normal forwards running;
@@ -665,6 +676,7 @@ header {
 .graph-git > p {
   color: #a53ed4;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: git 4s 2s ease 1 normal forwards running;
 }
 
@@ -679,7 +691,7 @@ header {
 
 .graph-sql {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #0074a3;
   animation: r-sql 4s 2s ease 1 normal forwards running;
@@ -701,6 +713,7 @@ header {
 .graph-sql > p {
   color: #0074a3;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: sql 4s 2s ease 1 normal forwards running;
 }
 
@@ -715,7 +728,7 @@ header {
 
 .graph-aws {
   width: 30px;
-  height: 20px;
+  height: 35px;
   border-radius: 2px;
   background: #ec7211;
   animation: r-aws 4s 2s ease 1 normal forwards running;
@@ -737,6 +750,7 @@ header {
 .graph-aws > p {
   color: #ec7211;
   text-align: end;
+  padding: 10px 10px 0 0;
   animation: aws 4s 2s ease 1 normal forwards running;
 }
 
