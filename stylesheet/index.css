@@ -220,7 +220,7 @@ header {
 .skill-content {
   width: 75vw;
   margin: auto;
-  background: rgb(148, 137, 137);
+  background: rgb(235, 219, 219);
 }
 
 .skill-contents {
@@ -231,11 +231,522 @@ header {
   font-size: 20px;
   padding: 5px;
   border-bottom: 1px solid ;
-  margin: 20px;
+  margin: 20px ;
 }
 
-.skill-contents > div {
-  margin: 30px;
+.skill-graph {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.skill-name {
+  margin: 5px 30px;
+  flex-basis: 120px;
+}
+
+.graph-html {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #e44b23;
+  animation: r-html 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-html {
+  80% {
+    width: 43%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 43%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-html > p {
+  color: #e44b23;
+  text-align: end;
+  animation: html 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes html {
+  90% {
+    color: #e44b23;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-css {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #563d7c;
+  animation: r-css 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-css {
+  80% {
+    width: 40%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 40%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-css > p {
+  color: #563d7c;
+  text-align: end;
+  animation: css 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes css {
+  90% {
+    color: #563d7c;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-js {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #f1e05a;
+  animation: r-js 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-js {
+  80% {
+    width: 30%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 30%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-js > p {
+  color: #f1e05a;
+  text-align: end;
+  animation: js 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes js {
+  90% {
+    color: #f1e05a;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-jquery {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #0769ad;
+  animation: r-jq 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-jq {
+  80% {
+    width: 20%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 20%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-jquery > p {
+  color: #0769ad;
+  text-align: end;
+  animation: jq 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes jq {
+  90% {
+    color: #0769ad;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-vue {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #42b983;
+  animation: r-vue 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-vue {
+  80% {
+    width: 10%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 10%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-vue > p {
+  color: #42b983;
+  text-align: end;
+  animation: vue 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes vue {
+  90% {
+    color: #42b983;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-ps {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #0d66d0;
+  animation: r-ps 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-ps {
+  80% {
+    width: 33%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 33%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-ps > p {
+  color: #0d66d0;
+  text-align: end;
+  animation: ps 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes ps {
+  90% {
+    color: #0d66d0;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-ill {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #e68619;
+  animation: r-ill 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-ill {
+  80% {
+    width: 17%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 17%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-ill > p {
+  color: #e68619;
+  text-align: end;
+  animation: ill 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes ill {
+  90% {
+    color: #e68619;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-xd {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #c515ae;
+  animation: r-xd 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-xd {
+  80% {
+    width: 33%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 33%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-xd > p {
+  color: #c515ae;
+  text-align: end;
+  animation: xd 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes xd {
+  90% {
+    color: #c515ae;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-ui {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #c73d13;
+  animation: r-ui 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-ui {
+  80% {
+    width: 13%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 13%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-ui > p {
+  color: #c73d13;
+  text-align: end;
+  animation: ui 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes ui {
+  90% {
+    color: #c73d13;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-ruby {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #701516;
+  animation: r-ruby 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-ruby {
+  80% {
+    width: 30%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 30%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-ruby > p {
+  color: #701516;
+  text-align: end;
+  animation: ruby 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes ruby {
+  90% {
+    color: #701516;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-rails {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #e17600;
+  animation: r-rails 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-rails {
+  80% {
+    width: 30%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 30%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-rails > p {
+  color: #e17600;
+  text-align: end;
+  animation: rails 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes rails {
+  90% {
+    color: #e17600;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-git {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #a53ed4;
+  animation: r-git 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-git {
+  80% {
+    width: 40%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 40%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-git > p {
+  color: #a53ed4;
+  text-align: end;
+  animation: git 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes git {
+  90% {
+    color: #a53ed4;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-sql {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #0074a3;
+  animation: r-sql 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-sql {
+  80% {
+    width: 20%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 20%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-sql > p {
+  color: #0074a3;
+  text-align: end;
+  animation: sql 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes sql {
+  90% {
+    color: #0074a3;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-aws {
+  width: 30px;
+  height: 20px;
+  border-radius: 2px;
+  background: #ec7211;
+  animation: r-aws 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-aws {
+  80% {
+    width: 23%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 23%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-aws > p {
+  color: #ec7211;
+  text-align: end;
+  animation: aws 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes aws {
+  90% {
+    color: #ec7211;
+  }
+  100% {
+    color: white;
+  }
 }
 
 /* 技術スキル部分 */
@@ -251,6 +762,7 @@ header {
 .portfolio-content {
   width: 75vw;
   margin: auto;
+  padding: 10px 0;
   background: whitesmoke;
 }
 
@@ -271,7 +783,7 @@ header {
   margin: 10p;
 }
 
-.portfolio-contents > ul >li {
+.portfolio-contents > ul > li {
   padding: 5px;
   margin: 10p;
   font-size: 10px;

@@ -31,4 +31,4 @@ $(function() {
   $d.on('click', function() {
     $nav.removeClass( open );
   });
-} )(jQuery);
+});
