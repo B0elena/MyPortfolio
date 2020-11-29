@@ -6,8 +6,8 @@ $(function() {
   const $nav   = $('#navArea');
   const $btn   = $('.toggle_btn');
   const $mask  = $('#mask');
-  const open   = 'open'; // class
-  // menu open close
+  const open   = 'open';
+
   $btn.on( 'click', function() {
     if ( ! $nav.hasClass( open ) ) {
       $nav.addClass( open );
@@ -15,7 +15,7 @@ $(function() {
       $nav.removeClass( open );
     }
   });
-  // mask close
+
   $mask.on('click', function() {
     $nav.removeClass( open );
   });
