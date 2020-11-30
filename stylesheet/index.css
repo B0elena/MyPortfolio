@@ -1,34 +1,3 @@
-/* リセットCSS */
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-size: 14px;
-  font-family:'arial', 'ヒラギノ角ゴ ProN W3', 'Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', Meiryo, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
-  color: #333;
-  margin: 0 auto;
-}
-
-body,
-div,
-ul,
-li,
-h1,
-h2,
-p{
-  margin:0;
-  padding:0;
-}
-ul {
-  list-style:none;
-}
-a {
-  text-decoration: none;
-  /* color: #333; */
-}
-/* リセットCSS */
-
 /* ハンバガーメニュー */
 /*nav*/
 nav {
@@ -149,8 +118,8 @@ nav .inner ul li a:hover {
 /* フェードイン */
 .effect-fade {
   opacity : 0;
-  transform : translate(0, 45px);
-  transition : all 2s 0.5s ease;
+  transform : translate(0, 50px);
+  transition : all 1.2s 0.3s ease;
 }
 
 .effect-fade.effect-scroll {
@@ -160,25 +129,70 @@ nav .inner ul li a:hover {
 /* フェードイン */
 
 /* ヘッダー部分 */
-header {
-  height: 600px;
-  width: 100%;
-  background-image: url(../img/p-image4.jpg);
-  background-size: cover;
+.head-content-top {
+  height: 200px;
 }
 
-.my-portfolio {
-  font-size: 50px;
-  font-weight: bold;
-  font-style: oblique;
-  padding: 230px 0 0 15vw;
+.head-top-left > p {
+  background: linear-gradient(-15deg, #fff, #fff 50%, #eee 50%, #eee);
+  width: 740px;
+  height: 200px;
+  padding: 60px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.icon {
+  position: absolute;
+  top: 180px;
+  left: 49%;
+}
+
+.head-content-down {
+  height: 500px;
+}
+
+.head-down-wrapper-a {
+  padding: 50px;
+}
+
+.head-down-title {
+  font-size: 70px;
+  margin: 30px auto;
+  border-bottom: 1px solid #333;
+  padding-left: 180px;
+  transform: rotate(-8deg);
+}
+
+.head-down-wrapper-b {
+  width: 500px;
+  margin: auto;
+}
+
+.head-down-content {
+  margin-left: 150px;
+  font-size: 12px;
+}
+
+.circle-a {
+  width: 130px;
+  height: 130px;
+  border-radius: 75px;
+  background: rgba(217, 255, 79, 0.5);
+}
+
+.circle-b {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-left: 600px;
+  background: rgb(150, 150, 150);
 }
 /* ヘッダー部分 */
 
 /* メイン部分 */
 /* 導入 */
 .name-content {
-  height: 400px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -211,7 +225,7 @@ header {
 
 /* 自己紹介部分 */
 .introduction-title {
-  font-size: 30px;
+  font-size: 50px;
   font-style: oblique;
   padding: 5px;
   margin: 40px auto;
@@ -221,14 +235,14 @@ header {
 .introduction-text {
   font-size: 16px;
   width: 70%;
-  margin: 30px auto;
+  margin: 0 auto;
 }
 /* 自己紹介部分 */
 
 /* 技術スキル部分 */
 .skill-content-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   font-style: oblique;
   margin: 50px 20px;
 }
@@ -784,7 +798,7 @@ header {
 /* 成果物部分 */
 .portfolio-content-title {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   font-style: oblique;
   margin: 50px 15px;
 }
@@ -834,7 +848,7 @@ header {
 .access-content-row {
   padding: 90px 0;
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   font-style: oblique;
 }
 
@@ -905,85 +919,3 @@ footer > p {
 
 /* フッター部分 */
 
-@media (max-width: 1024px) {
-  .name-image {
-    width: 210px;
-    height: 210px;
-    margin: 0 10px;
-  }
-}
-
-@media (max-width: 599px) {
-  /* ヘッダー部分 */
-  header {
-    height: 300px;
-    width: 100%;
-    background-image: url(../img/p-image4.jpg);
-    background-size: cover;
-  }
-
-  .my-portfolio {
-    font-size: 30px;
-    font-weight: bold;
-    font-style: oblique;
-    text-align: center;
-    padding: 130px 0;
-  }
-  /* ヘッダー部分 */
-
-  /* 導入 */
-  .en-name {
-    width: 100px;
-    font-size: 12px;
-  }
-  
-  .ja-name {
-    font-size: 24px;
-  }
-
-  .name-image {
-    width: 175px;
-    height: 175px;
-    margin: 0 20px;
-  }
-  /* 導入 */
- 
-  /* 自己紹介部分 */
- 
-  /* 自己紹介部分 */
-
-  /* 成果物部分 */
-  .portfolio-content-title {
-    font-size: 15px;
-  }
-  
-  .portfolio-content {
-    width: 75vw;
-    margin: auto;
-    background: whitesmoke;
-  }
-  
-  .portfolio {
-    padding-top:15px;
-    display: block!important;
-  }
-
-  .ps-img {
-    color: purple;
-  }
-  /* 成果物部分 */
-  
-  /* 連絡先部分 */
-  .access-content-address {
-    display: block;
-    width: 80%;
-  }
-  /* 連絡先部分 */
-
-  /* フッター部分 */
-  footer > p {
-    font-size: 10px;
-    font-style: oblique;
-  }
-  /* フッター部分 */
-}

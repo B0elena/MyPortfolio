@@ -1,0 +1,30 @@
+/* リセットCSS */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+  font-family:'ヒラギノ角ゴ ProN W3', 'Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', 'Meiryo', '-apple-system, BlinkMacSystemFont', 'Helvetica Neue', 'Arial', 'sans-serif';
+  color: #333;
+  margin: 0 auto;
+}
+
+body,
+div,
+ul,
+li,
+h1,
+h2,
+p{
+  margin:0;
+  padding:0;
+}
+ul {
+  list-style:none;
+}
+a {
+  text-decoration: none;
+  /* color: #333; */
+}
+/* リセットCSS */

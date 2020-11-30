@@ -3,14 +3,18 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet/reset.css">
     <link rel="stylesheet" href="stylesheet/index.css">
+    <link rel="stylesheet" href="stylesheet/responsive.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="img/p-image0.png">
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="index.js"></script>
     <title>MyPortfolio</title>
   </head>
 
   <body>
+    <!-- ハンバーガーメニュー -->
     <div id="navArea">
       <nav>
         <div class="inner">
@@ -27,25 +31,45 @@
         <span></span>
         <span></span>
       </div>
-    
       <div id="mask"></div>
-  
     </div>
+    <!-- ハンバーガーメニュー -->
+    <!-- ヘッダー -->
     <header id="header">
-      <div class=head-content>
-        <div class="my-portfolio">MyPortfolio</div>
+      <div class="head-content-top">
+        <div class="head-top-left">
+          <p>Tatsunori suga /</p>
+        </div>
+        <img src="img/p-image0.png" alt="icon" width="40px" height="40px" class="icon">
+      </div>
+      <div class="head-content-down">
+        <div class="head-down-wrapper-a">
+          <h1 class="head-down-title">My Portfolio</h1>
+        </div>
+        <div class="head-down-wrapper-b">
+          <P class="head-down-content">
+            Site Design / Coding - HTML5, CSS3, JavaScript, jQuery 
+            / Design Comp - Photoshop, Illustrator, XD 
+            / Application Development / Ruby, Ruby on Rails, MySQL, Git, GitHub
+          </P>
+          <div class="circle-a"></div>
+          <div class="circle-b"></div>
+        </div>
       </div>
     </header>
+
+    <!-- ヘッダー -->
     <main>
       <!-- 導入 -->
       <section class="">
+        <h1 class="introduction-title effect-fade">Profile</h1>
         <div class="name-content">
           <div>
             <div class="en-name effect-fade">Tatsunori Suga</div>
             <div class="ja-name effect-fade">須賀辰則</div>
           </div>
           <div class="effect-fade">
-            <img src="img/p-image8.jpeg" alt="my-image" width="250px" height="250px" class="name-image">
+            <img src="img/p-image8.jpeg" alt="my-image" width="250px" height="250px" class="name-image effect-fade">
           </div>
         </div>
       </section>
@@ -53,7 +77,7 @@
 
       <!-- 自己紹介部分 -->
       <section class="" id="introduction-content">
-        <h1 class="introduction-title effect-fade">Profile</h1>
+        
         <p class="introduction-text effect-fade">
           これまでいろいろな形態の飲食業に携わってきました。
           未経験からパティシエになり経験を積み、さらにレストランで働いていた時に料理にも興味を持ち勉強して、銀座のイタリアンの料理長になったという経験もあります。
