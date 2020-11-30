@@ -5,6 +5,7 @@
 
 body {
   font-size: 14px;
+  font-family:'arial', 'ヒラギノ角ゴ ProN W3', 'Gothic ProN', 'YuGothic', '游ゴシック', 'メイリオ', Meiryo, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif;
   color: #333;
   margin: 0 auto;
 }
