@@ -9,7 +9,7 @@
   .circle-c {
     display: none;
   }
-  
+
   .head-top-left > p {
     width: 500px;
     background: linear-gradient(-15deg, #fff, #fff 60%, #eee 60%, #eee);
@@ -18,7 +18,9 @@
 
 @media (max-width: 599px) {
   /* ヘッダー部分 */
-
+  .head-down-title {
+    font-size: 30px;
+  }
   /* ヘッダー部分 */
 
   /* 導入 */
