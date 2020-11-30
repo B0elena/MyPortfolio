@@ -18,9 +18,26 @@
 
 @media (max-width: 599px) {
   /* ヘッダー部分 */
+  .circle-a {
+    display: none;
+  }
+
+  .head-top-left > p {
+    width: 350px;
+    background: linear-gradient(-20deg, #fff, #fff 60%, #eee 60%, #eee);
+  }
+
+  .head-content-down {
+    height: 300px;
+  }
+
   .head-down-title {
     font-size: 30px;
-    padding-left: 80px;
+    padding-left: 30px;
+  }
+
+  .head-down-wrapper-b {
+    display: none;
   }
   /* ヘッダー部分 */
 
@@ -44,6 +61,12 @@
   /* 自己紹介部分 */
  
   /* 自己紹介部分 */
+
+  /* 技術部分 */
+  .skill-content {
+    width: 80vw;
+  }
+  /* 技術部分 */
 
   /* 成果物部分 */
   .portfolio-content-title {
