@@ -48,6 +48,7 @@ $(function(){
 });
 // フェードイン
 
+
 // スムーズスクロール
 $(function(){
   $('a[href^="#"]').click(function(){
