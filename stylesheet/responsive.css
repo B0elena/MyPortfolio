@@ -85,8 +85,9 @@
   }
 
   .portfolio img {
-    width: 195px;
-    height: 139px;
+    width: 220px;
+    height: 158px;
+    margin: auto;
   }
 
   .ps-img {
