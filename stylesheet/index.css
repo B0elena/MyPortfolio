@@ -179,14 +179,14 @@ nav .inner ul li a:hover {
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background: rgba(217, 255, 79, 0.4);
+  background: rgba(79, 205, 255, 0.6);
 }
 
 .circle-b {
   width: 130px;
   height: 130px;
   border-radius: 75px;
-  background: rgba(217, 255, 79, 0.5);
+  background: rgba(79, 205, 255, 0.6);
 }
 
 .circle-c {
@@ -238,7 +238,7 @@ nav .inner ul li a:hover {
 }
 
 .introduction-content-b {
-  background:  linear-gradient(6deg, #fff, #fff 50%, rgba(217, 255, 79, 0.2) 50%, rgba(217, 255, 79, 0.6));
+  background:  linear-gradient(6deg, #fff, #fff 50%, rgba(79, 141, 255, 0.2) 50%, rgba(79, 205, 255, 0.6));
 }
 
 .introduction-title {
