@@ -179,14 +179,14 @@ nav .inner ul li a:hover {
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background: rgba(79, 205, 255, 0.6);
+  /* background: rgba(79, 205, 255, 0.6); */
 }
 
 .circle-b {
   width: 130px;
   height: 130px;
   border-radius: 75px;
-  background: rgba(79, 205, 255, 0.6);
+  /* background: rgba(79, 205, 255, 0.6); */
 }
 
 .circle-c {
@@ -194,7 +194,7 @@ nav .inner ul li a:hover {
   height: 80px;
   border-radius: 40px;
   margin-left: 600px;
-  background: rgba(150, 150, 150, 0.6);
+  /* background: rgba(150, 150, 150, 0.6); */
 }
 /* ヘッダー部分 */
 
@@ -234,19 +234,28 @@ nav .inner ul li a:hover {
 
 /* 自己紹介部分 */
 .introduction-content-a {
-  background:  linear-gradient(-15deg, #fff, #fff 50%, rgba(238, 238, 238, 0.2) 50%, #eee);
+  padding: 20px 0;
+  background: whitesmoke;
+  /* background:  linear-gradient(-15deg, #fff, #fff 50%, rgba(238, 238, 238, 0.2) 50%, #eee); */
 }
 
 .introduction-content-b {
-  background:  linear-gradient(6deg, #fff, #fff 50%, rgba(79, 141, 255, 0.2) 50%, rgba(79, 205, 255, 0.6));
+  padding: 100px 0;
+  background: whitesmoke;
+  /* background:  linear-gradient(6deg, #fff, #fff 50%, rgba(79, 141, 255, 0.2) 50%, rgba(79, 205, 255, 0.6)); */
 }
 
 .introduction-title {
   font-size: 50px;
   font-style: oblique;
   padding: 5px;
-  margin: 40px auto;
+  margin: 40px auto 0;
   width: 150px;
+}
+
+.introduction-title-ja {
+  margin: 0 auto 40px;
+  text-align: center;
 }
 
 .introduction-text {
@@ -262,7 +271,12 @@ nav .inner ul li a:hover {
   text-align: center;
   font-size: 50px;
   font-style: oblique;
-  margin: 50px 20px;
+  margin: 50px 20px 0 ;
+}
+
+.skill-content-title-ja {
+  text-align: center;
+  margin: 0 20px 50px;
 }
 
 .skill-content {
@@ -818,7 +832,12 @@ nav .inner ul li a:hover {
   text-align: center;
   font-size: 50px;
   font-style: oblique;
-  margin: 50px 15px;
+  margin: 50px 15px 0;
+}
+
+.portfolio-content-title-ja {
+  text-align: center;
+  margin: 0 15px 50px;
 }
 
 .portfolio-content {
@@ -864,10 +883,16 @@ nav .inner ul li a:hover {
 }
 
 .access-content-row {
-  padding: 90px 0;
+  padding: 90px 0 0;
   text-align: center;
   font-size: 50px;
   font-style: oblique;
+}
+
+.access-content-row-ja {
+  text-align: center;
+  padding: 0 0 90px;
+  font-size: 20px;
 }
 
 .access-content-address {

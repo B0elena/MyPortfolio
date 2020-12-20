@@ -84,6 +84,11 @@
     display: block!important;
   }
 
+  .portfolio img {
+    width: 195px;
+    height: 139px;
+  }
+
   .ps-img {
     color: purple;
   }
