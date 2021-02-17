@@ -455,37 +455,74 @@ nav .inner ul li a:hover {
   }
 }
 
-.graph-vue {
+.graph-sw {
   width: 30px;
   height: 35px;
   border-radius: 2px;
   background: #42b983;
-  animation: r-vue 4s 2s ease 1 normal forwards running;
+  animation: r-sw 4s 2s ease 1 normal forwards running;
 }
 
-@keyframes r-vue {
+@keyframes r-sw {
   80% {
-    width: 10%;
+    width: 20%;
   }
   90% {
     transform: rotatex(0deg);
   }
   100% {
-    width: 10%;
+    width: 20%;
     transform: rotatex(360deg);
   }
 }
 
-.graph-vue > p {
+.graph-sw > p {
   color: #42b983;
   text-align: end;
   padding: 10px 10px 0 0;
-  animation: vue 4s 2s ease 1 normal forwards running;
+  animation: sw 4s 2s ease 1 normal forwards running;
 }
 
-@keyframes vue {
+@keyframes sw {
   90% {
     color: #42b983;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-xc {
+  width: 30px;
+  height: 35px;
+  border-radius: 2px;
+  background: #60b8ff;
+  animation: r-xc 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-xc {
+  80% {
+    width: 20%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 20%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-xc > p {
+  color: #60b8ff;
+  text-align: end;
+  padding: 10px 10px 0 0;
+  animation: xc 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes xc {
+  90% {
+    color: #60b8ff;
   }
   100% {
     color: white;
