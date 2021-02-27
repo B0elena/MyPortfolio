@@ -2,6 +2,8 @@
 【名前】
 ポートフォリオ（作品集）
 
+https://b0elena.github.io/MyPortfolio/
+
 【使用技術】
 HTML / CSS / SCSS / JavaScript / jQuery
 
