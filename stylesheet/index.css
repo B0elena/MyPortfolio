@@ -465,13 +465,13 @@ nav .inner ul li a:hover {
 
 @keyframes r-sw {
   80% {
-    width: 20%;
+    width: 33%;
   }
   90% {
     transform: rotatex(0deg);
   }
   100% {
-    width: 20%;
+    width: 33%;
     transform: rotatex(360deg);
   }
 }
@@ -502,13 +502,13 @@ nav .inner ul li a:hover {
 
 @keyframes r-xc {
   80% {
-    width: 20%;
+    width: 33%;
   }
   90% {
     transform: rotatex(0deg);
   }
   100% {
-    width: 20%;
+    width: 33%;
     transform: rotatex(360deg);
   }
 }
