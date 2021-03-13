@@ -529,6 +529,80 @@ nav .inner ul li a:hover {
   }
 }
 
+.graph-kt {
+  width: 30px;
+  height: 35px;
+  border-radius: 2px;
+  background: #f19354;
+  animation: r-kt 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-kt {
+  80% {
+    width: 20%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 20%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-kt > p {
+  color: #f19354;
+  text-align: end;
+  padding: 10px 10px 0 0;
+  animation: kt 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes kt {
+  90% {
+    color: #f19354;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.graph-as {
+  width: 30px;
+  height: 35px;
+  border-radius: 2px;
+  background: #60ad67;
+  animation: r-as 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes r-as {
+  80% {
+    width: 20%;
+  }
+  90% {
+    transform: rotatex(0deg);
+  }
+  100% {
+    width: 20%;
+    transform: rotatex(360deg);
+  }
+}
+
+.graph-as > p {
+  color: #60ad67;
+  text-align: end;
+  padding: 10px 10px 0 0;
+  animation: as 4s 2s ease 1 normal forwards running;
+}
+
+@keyframes as {
+  90% {
+    color: #60ad67;
+  }
+  100% {
+    color: white;
+  }
+}
+
 .graph-ps {
   width: 30px;
   height: 35px;
@@ -913,7 +987,7 @@ nav .inner ul li a:hover {
 
 .portfolio-image-swift {
   display: flex;
-  
+
 }
 /* 成果物部分 */
 
