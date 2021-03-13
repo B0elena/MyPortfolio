@@ -987,7 +987,8 @@ nav .inner ul li a:hover {
 
 .portfolio-image-swift {
   display: flex;
-
+  padding: 10px;
+  margin: 20px;
 }
 /* 成果物部分 */
 
