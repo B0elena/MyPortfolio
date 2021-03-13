@@ -90,6 +90,11 @@
     margin: auto;
   }
 
+  .portfolio-image-swift {
+    width: 220px;
+    height: 158px;
+  }
+
   .ps-img {
     color: purple;
   }
