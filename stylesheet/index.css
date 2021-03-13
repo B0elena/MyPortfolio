@@ -910,6 +910,11 @@ nav .inner ul li a:hover {
 .fab {
   color: purple;
 }
+
+.portfolio-image-swift {
+  display: flex;
+  
+}
 /* 成果物部分 */
 
 /* 連絡先部分 */
